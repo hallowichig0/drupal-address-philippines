@@ -8,7 +8,7 @@ Under `admin/config/people/profile-types/manage/customer/fields/profile.customer
 Copy the `drupal_address_metromanila_cities` folder into your `web/modules/custom` folder
 
 ## Dependencies
-This custom module is require of `drupal/address` module.
+This Drupal Address Metro Manila Cities module is require of `drupal/address` and `drupal/commerce` module.
 
 
 Credits to Halcyon Web Design for development time.
