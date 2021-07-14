@@ -1,0 +1,9 @@
+drupal_address_metromanila_cities:
+  css:
+    theme:
+      css/drupal_address_metromanila_cities.css: {}
+  js:
+    js/drupal_address_metromanila_cities.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

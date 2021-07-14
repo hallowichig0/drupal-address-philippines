@@ -1,0 +1,5 @@
+name: Drupal Address Metro Manila Cities
+description: Additional selection dropdown for Metro Manila Cities. The city field will automatically change the text field into select field if the user select any Metro Manila Province. Reduces the set of available countries to just 1 (Philippines).
+package: Drupal Address Metro Manila Cities
+type: module
+core: 8.x

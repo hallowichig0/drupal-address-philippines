@@ -1,0 +1,15 @@
+services:
+#   drupal_address_metromanila_cities.addtional_fields:
+#     class: Drupal\drupal_address_metromanila_cities\EventSubscriber\BuildingNameEventSubscriber
+#     tags:
+#       - { name: event_subscriber }
+
+  drupal_address_metromanila_cities.limit_country:
+    class: Drupal\drupal_address_metromanila_cities\EventSubscriber\LimitCountriesEventSubscriber
+    tags:
+      - { name: event_subscriber }
+
+  drupal_address_metromanila_cities.subdivision_philippines:
+    class: Drupal\drupal_address_metromanila_cities\EventSubscriber\PhilippinesEventSubscriber
+    tags:
+      - { name: event_subscriber }

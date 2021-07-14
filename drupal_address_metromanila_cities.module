@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_page_attachments().
+ */
+use Drupal\Core\Form\FormStateInterface;
+
+function drupal_address_metromanila_cities_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+    if ($form_id == 'commerce_checkout_flow_multistep_default') {
+        $form['#attached']['library'][] = 'drupal_address_metromanila_cities/drupal_address_metromanila_cities';
+    }
+}
