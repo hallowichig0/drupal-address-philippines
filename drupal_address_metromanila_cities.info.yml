@@ -3,3 +3,6 @@ description: Additional selection dropdown for Metro Manila Cities. The city fie
 package: Drupal Address Metro Manila Cities
 type: module
 core: 8.x
+dependencies:
+  - commerce:commerce
+  - address:address
