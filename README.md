@@ -4,3 +4,6 @@ Additional selection dropdown for Metro Manila Cities. The city field will autom
 
 ## Installation
 Copy the `drupal_address_metromanila_cities` folder into your `web/modules/custom` folder
+
+
+Credits to Halcyon Web Design for development time.
