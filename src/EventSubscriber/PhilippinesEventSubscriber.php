@@ -126,7 +126,7 @@ class PhilippinesEventSubscriber implements EventSubscriberInterface {
         //         ],
         //     ];
         // }
-        if($parents[1] == 'Metro Manila') {
+        if(isset($parents[1]) && $parents[1] == 'Metro Manila') {
             $definitions = [
                 'country_code' => $parents[0],
                 'parents' => $parents,
