@@ -7,7 +7,7 @@
   /*
   * Drupal behaviors
   */
-  Drupal.behaviors.jayson_custom_module = {
+  Drupal.behaviors.drupal_address_metromanila_cities = {
     attach: (context, settings) => {
       
     }
